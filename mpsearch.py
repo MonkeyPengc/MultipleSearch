@@ -37,7 +37,7 @@ def write_report(status_workers, num_workers, logger):
 
     for worker_success in status_workers[0]:
         pid, elapsed, byte_cnt, status = worker_success
-        elapsed_in_ms = elapsed * 1000   # new line added 
+        elapsed_in_ms = elapsed * 1000 
         total_elapsed_time += elapsed_in_ms
         total_bytes_read += byte_cnt
         workers_complete_in_time.append(pid)
