@@ -1,5 +1,6 @@
 # MultipleSearch
-Multiple processes programming exercise.
+
+Search a user specified string in a stream of data using 10 simultaneous processes.
 
 #### Run
 
